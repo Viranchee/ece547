@@ -1,0 +1,12 @@
+{
+  "name": "cloud_computing",
+  "version": "1.0.0",
+  "description": "Project on Docker",
+  "author": "Viranchee Lotia <viranchee@outlook.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+  }
+}
