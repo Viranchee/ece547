@@ -1,8 +1,7 @@
-FROM node:16
+FROM node:18
 WORKDIR /usr/src/app
 # Bundle app source
-COPY . .
-EXPOSE 8080/tcp
-EXPOSE 8080/udp
+COPY --chown=node:node . .
+EXPOSE 8080
 
 CMD [ "node", "app.js" ]
