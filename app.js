@@ -1,7 +1,7 @@
 const http = require('http');
 
 const hostname = '127.0.0.1';
-const port = 8080;
+const port = 3000;
 
 function calculateFibonacci(number) {
     if (number <= 1) return 1;

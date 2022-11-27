@@ -1,4 +1,8 @@
 {
-  "appService.defaultWebAppToDeploy": "/subscriptions/e7d402de-87a4-4dea-8632-659970731cfe/AppServices/subscriptions/e7d402de-87a4-4dea-8632-659970731cfe/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Web/sites/virwebappp",
-  "appService.deploySubpath": "."
+  "appService.defaultWebAppToDeploy": "/subscriptions/e7d402de-87a4-4dea-8632-659970731cfe/appservices/subscriptions/e7d402de-87a4-4dea-8632-659970731cfe/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Web/sites/virwebcloud",
+  "appService.deploySubpath": ".",
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ]
 }
