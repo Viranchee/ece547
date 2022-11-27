@@ -12,8 +12,11 @@ function calculateFibonacci(number) {
 const server = http.createServer((req, res) => {
   
   // Get number from req.url after /number
-  const number = parseInt(req.url.slice(1));
+  let number = parseInt(req.url.slice(1));
   console.log(number);
+  if (isNaN(number)) {
+    number = 1;
+  }
   // Calculate factorial of the number
   const fibonacci = calculateFibonacci(number);
   console.log(fibonacci);
